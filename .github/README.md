@@ -7,4 +7,5 @@ A collection of BigWigs modules from the **Shadowlands** era, including:
 * World Bosses
 
 ## Download
-<https://www.curseforge.com/wow/addons/bigwigs_shadowlands>
+* <https://www.curseforge.com/wow/addons/bigwigs_shadowlands>
+* <https://addons.wago.io/addons/bigwigs-shadowlands>
