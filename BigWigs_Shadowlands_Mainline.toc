@@ -13,7 +13,7 @@
 ## Title-esMX: BigWigs [|cffeda55fShadowlands|r]
 ## Notes: A collection of BigWigs modules from the Shadowlands era.
 ## Notes-zhCN: BigWigs 暗影国度模块。
-## Notes-zhTW: A collection of BigWigs modules from the Shadowlands era.
+## Notes-zhTW: BigWigs 暗影之境模組。
 ## Notes-deDE: A collection of BigWigs modules from the Shadowlands era.
 ## Notes-frFR: A collection of BigWigs modules from the Shadowlands era.
 ## Notes-itIT: A collection of BigWigs modules from the Shadowlands era.
