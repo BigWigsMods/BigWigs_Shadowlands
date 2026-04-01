@@ -14,6 +14,7 @@ BigWigs:AddColors("Shriekwing", {
 	[343005] = "yellow",
 	[345397] = "orange",
 	[345936] = "red",
+	["berserk"] = {"orange","red","yellow"},
 	["stages"] = "green",
 })
 
@@ -31,6 +32,7 @@ BigWigs:AddSounds("Shriekwing", {
 	[343005] = "alert",
 	[345397] = "alarm",
 	[345936] = "long",
+	["berserk"] = "alarm",
 	["stages"] = "info",
 })
 
@@ -69,6 +71,7 @@ BigWigs:AddColors("Hungering Destroyer", {
 	[332295] = {"blue","purple"},
 	[334266] = {"blue","orange"},
 	[334522] = "orange",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Hungering Destroyer", {
@@ -79,6 +82,7 @@ BigWigs:AddSounds("Hungering Destroyer", {
 	[332295] = "alert",
 	[334266] = "warning",
 	[334522] = "long",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Artificer Xy'mox", {
@@ -133,6 +137,7 @@ BigWigs:AddColors("Sun King's Salvation", {
 	[339251] = "blue",
 	[341473] = "blue",
 	[343026] = {"green","red"},
+	["berserk"] = {"orange","red","yellow"},
 	["stages"] = "green",
 })
 
@@ -159,6 +164,7 @@ BigWigs:AddSounds("Sun King's Salvation", {
 	[339251] = "info",
 	[341473] = "alarm",
 	[343026] = {"info","warning"},
+	["berserk"] = "alarm",
 	["stages"] = "long",
 })
 
@@ -285,6 +291,7 @@ BigWigs:AddColors("Stone Legion Generals", {
 	[343063] = "blue",
 	[343898] = "yellow",
 	[344496] = {"blue","red"},
+	["berserk"] = {"orange","red","yellow"},
 	["commando"] = "cyan",
 	["goliath"] = "cyan",
 })
@@ -311,6 +318,7 @@ BigWigs:AddSounds("Stone Legion Generals", {
 	[343063] = "alarm",
 	[343898] = "alert",
 	[344496] = "warning",
+	["berserk"] = "alarm",
 	["goliath"] = "info",
 })
 

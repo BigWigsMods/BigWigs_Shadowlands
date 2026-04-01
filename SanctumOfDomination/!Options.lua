@@ -15,6 +15,7 @@ BigWigs:AddColors("The Tarragrue", {
 	[352382] = {"blue","cyan"},
 	[352389] = {"blue","cyan"},
 	[352398] = {"blue","cyan"},
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("The Tarragrue", {
@@ -32,6 +33,7 @@ BigWigs:AddSounds("The Tarragrue", {
 	[352382] = {"alarm","info"},
 	[352389] = {"alarm","info"},
 	[352398] = {"alarm","info"},
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("The Eye of the Jailer", {
@@ -144,6 +146,7 @@ BigWigs:AddColors("Soulrender Dormazain", {
 	[351229] = "yellow",
 	[351779] = "yellow",
 	[354231] = "blue",
+	["berserk"] = {"orange","red"},
 })
 
 BigWigs:AddSounds("Soulrender Dormazain", {
@@ -155,6 +158,7 @@ BigWigs:AddSounds("Soulrender Dormazain", {
 	[350647] = "warning",
 	[351779] = "alert",
 	[354231] = "info",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Painsmith Raznal", {
@@ -228,6 +232,7 @@ BigWigs:AddColors("Fatescribe Roh-Kalo", {
 	[354367] = {"blue","yellow"},
 	[354964] = {"blue","orange"},
 	[357144] = "yellow",
+	["berserk"] = {"orange","red","yellow"},
 	["stages"] = {"cyan","green"},
 })
 
@@ -243,6 +248,7 @@ BigWigs:AddSounds("Fatescribe Roh-Kalo", {
 	[354367] = {"alarm","long"},
 	[354964] = "warning",
 	[357144] = "alert",
+	["berserk"] = "alarm",
 	["stages"] = {"info","long"},
 })
 

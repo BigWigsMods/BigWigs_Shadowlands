@@ -43,6 +43,7 @@ BigWigs:AddColors("Skolex, the Insatiable Ravener", {
 	[364522] = "orange",
 	[364778] = "yellow",
 	[366070] = "blue",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Skolex, the Insatiable Ravener", {
@@ -54,6 +55,7 @@ BigWigs:AddSounds("Skolex, the Insatiable Ravener", {
 	[364522] = "info",
 	[364778] = "alert",
 	[366070] = "underyou",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Artificer Xy'mox v2", {
@@ -151,6 +153,7 @@ BigWigs:AddColors("Lihuvim, Principal Architect", {
 	[364652] = "yellow",
 	[366012] = "blue",
 	[368027] = "yellow",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Lihuvim, Principal Architect", {
@@ -164,6 +167,7 @@ BigWigs:AddSounds("Lihuvim, Principal Architect", {
 	[364652] = "alert",
 	[366012] = "warning",
 	[368027] = "alert",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Halondrus the Reclaimer", {
@@ -244,6 +248,7 @@ BigWigs:AddColors("Lords of Dread", {
 	[360717] = {"green","yellow"},
 	[361913] = "yellow",
 	[361934] = "cyan",
+	["berserk"] = {"orange","red","yellow"},
 })
 
 BigWigs:AddSounds("Lords of Dread", {
@@ -258,6 +263,7 @@ BigWigs:AddSounds("Lords of Dread", {
 	[360717] = {"alert","long"},
 	[361913] = "alert",
 	[361934] = "info",
+	["berserk"] = "alarm",
 })
 
 BigWigs:AddColors("Rygelon", {
