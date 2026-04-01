@@ -6,7 +6,7 @@ local mod, CL = BigWigs:NewBoss("Oranomonos the Everbranching", -1565, 2432)
 if not mod then return end
 mod:RegisterEnableMob(167527)
 mod.otherMenu = -1647
-mod.worldBoss = 167527
+mod:SetWorldModule(true)
 
 --------------------------------------------------------------------------------
 -- Locals

@@ -6,7 +6,7 @@ local mod, CL = BigWigs:NewBoss("Valinor", -1533, 2430)
 if not mod then return end
 mod:RegisterEnableMob(167524)
 mod.otherMenu = -1647
-mod.worldBoss = 167524
+mod:SetWorldModule(true)
 
 --------------------------------------------------------------------------------
 -- Initialization

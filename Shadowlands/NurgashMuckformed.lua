@@ -6,7 +6,7 @@ local mod, CL = BigWigs:NewBoss("Nurgash Muckformed", -1525, 2433)
 if not mod then return end
 mod:RegisterEnableMob(167526)
 mod.otherMenu = -1647
-mod.worldBoss = 167526
+mod:SetWorldModule(true)
 
 --------------------------------------------------------------------------------
 -- Initialization

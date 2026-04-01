@@ -11,7 +11,7 @@ local mod, CL = BigWigs:NewBoss("Mortanis", -1536, 2431)
 if not mod then return end
 mod:RegisterEnableMob(167525)
 mod.otherMenu = -1647
-mod.worldBoss = 167525
+mod:SetWorldModule(true)
 
 --------------------------------------------------------------------------------
 -- Locals
