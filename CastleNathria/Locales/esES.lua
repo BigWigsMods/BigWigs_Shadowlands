@@ -58,15 +58,6 @@ if L then
 	--L.custom_on_repeating_dark_recital = "Repeating Dark Recital"
 	--L.custom_on_repeating_dark_recital_desc = "Repeating Dark Recital say messages with icons {rt1}, {rt2} to find your partner while dancing."
 
-	--L.custom_off_select_boss_order = "Mark Boss Kill Order"
-	--L.custom_off_select_boss_order_desc = "Mark the order the raid will kill the bosses in with cross {rt7}. Requires raid leader or assist to mark."
-	L.custom_off_select_boss_order_value1 = "Niklaus -> Frieda -> Stavros"
-	L.custom_off_select_boss_order_value2 = "Frieda -> Niklaus -> Stavros"
-	L.custom_off_select_boss_order_value3 = "Stavros -> Niklaus -> Frieda"
-	L.custom_off_select_boss_order_value4 = "Niklaus -> Stavros -> Frieda"
-	L.custom_off_select_boss_order_value5 = "Frieda -> Stavros -> Niklaus"
-	L.custom_off_select_boss_order_value6 = "Stavros -> Frieda -> Niklaus"
-
 	--L.dance_assist = "Dance Assist"
 	--L.dance_assist_desc = "Show directional warnings for the dancing stage."
 	--L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t Dance Forward |T450907:0:0:0:0:64:64:4:60:4:60|t"

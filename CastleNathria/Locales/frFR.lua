@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "Répéter Sombre Recital"
 	L.custom_on_repeating_dark_recital_desc = "Répéter Sombre Recital en /dire avec les icônes {rt1}, {rt2} pendant la danse."
 
-	L.custom_off_select_boss_order = "Marquage Ordre de kill des boss"
-	L.custom_off_select_boss_order_desc = "Marque dans quel ordre le raid tuera les boss avec la croix {rt7}. Nécessite d'être assistant ou chef de raid."
-	L.custom_off_select_boss_order_value1 = "Niklaus -> Frieda -> Stavros"
-	L.custom_off_select_boss_order_value2 = "Frieda -> Niklaus -> Stavros"
-	L.custom_off_select_boss_order_value3 = "Stavros -> Niklaus -> Frieda"
-	L.custom_off_select_boss_order_value4 = "Niklaus -> Stavros -> Frieda"
-	L.custom_off_select_boss_order_value5 = "Frieda -> Stavros -> Niklaus"
-	L.custom_off_select_boss_order_value6 = "Stavros -> Frieda -> Niklaus"
-
 	L.dance_assist = "Assistant danse"
 	L.dance_assist_desc = "Affiche des alertes directionelles pour la phase de danse."
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t Dansez vers l'avant |T450907:0:0:0:0:64:64:4:60:4:60|t"

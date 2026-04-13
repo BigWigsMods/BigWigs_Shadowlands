@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "Repetir Recital Sombrio"
 	L.custom_on_repeating_dark_recital_desc = "Repetir Recital Sombrio diz mensagens com ícones {rt1}, {rt2} para encontrar seu parceiro de dança."
 
-	L.custom_off_select_boss_order = "Marcar ordem de chefes"
-	L.custom_off_select_boss_order_desc = "Marca a ordem que a raide usará pra matar os chefes com uma cruz {rt7}. Requer líder de raide ou assistente para marcar."
-	L.custom_off_select_boss_order_value1 = "Niklaus -> Frieda -> Stavros"
-	L.custom_off_select_boss_order_value2 = "Frieda -> Niklaus -> Stavros"
-	L.custom_off_select_boss_order_value3 = "Stavros -> Niklaus -> Frieda"
-	L.custom_off_select_boss_order_value4 = "Niklaus -> Stavros -> Frieda"
-	L.custom_off_select_boss_order_value5 = "Frieda -> Stavros -> Niklaus"
-	L.custom_off_select_boss_order_value6 = "Stavros -> Frieda -> Niklaus"
-
 	L.dance_assist = "Assistente de Dança"
 	L.dance_assist_desc = "Mostra avisos direcionais para o estágio da dança."
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t Dance pra Frente |T450907:0:0:0:0:64:64:4:60:4:60|t"

@@ -37,15 +37,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "Repeating Dark Recital"
 	L.custom_on_repeating_dark_recital_desc = "Repeating Dark Recital say messages with icons {rt1}, {rt2} to find your partner while dancing."
 
-	L.custom_off_select_boss_order = "Mark Boss Kill Order"
-	L.custom_off_select_boss_order_desc = "Mark the order the raid will kill the bosses in with cross {rt7}. Requires raid leader or assist to mark."
-	L.custom_off_select_boss_order_value1 = "Niklaus -> Frieda -> Stavros"
-	L.custom_off_select_boss_order_value2 = "Frieda -> Niklaus -> Stavros"
-	L.custom_off_select_boss_order_value3 = "Stavros -> Niklaus -> Frieda"
-	L.custom_off_select_boss_order_value4 = "Niklaus -> Stavros -> Frieda"
-	L.custom_off_select_boss_order_value5 = "Frieda -> Stavros -> Niklaus"
-	L.custom_off_select_boss_order_value6 = "Stavros -> Frieda -> Niklaus"
-
 	L.dance_assist = "Dance Assist"
 	L.dance_assist_desc = "Show directional warnings for the dancing stage."
 	L.dance_assist_icon = "misc_arrowlup"
@@ -71,7 +62,6 @@ local afterImageMarker = mod:AddMarkerOption(false, "npc", 6, -22433, 6) -- Afte
 function mod:GetOptions()
 	return {
 		"stages",
-		"custom_off_select_boss_order",
 
 		--[[ Castellan Niklaus ]]--
 		{346690, "TANK"}, -- Duelist's Riposte
@@ -184,25 +174,6 @@ function mod:OnEngage()
 		self:CDBar(347350, 5, CL.count:format(self:SpellName(347350), dancingFeverCount)) -- Dancing Fever
 		self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT") -- Afterimage warnings
 	end
-
-	-- Mark kill order
-	killOrder = self:GetOption("custom_off_select_boss_order")
-	if killOrder == 1 or killOrder == 4 then -- Niklaus first
-		local boss = self:GetUnitIdByGUID(166971) -- Castellan Niklaus
-		if boss then
-			self:CustomIcon(false, boss, 7)
-		end
-	elseif killOrder == 2 or killOrder == 5 then -- Frieda First
-		local boss = self:GetUnitIdByGUID(166969) -- Baroness Frieda
-		if boss then
-			self:CustomIcon(false, boss, 7)
-		end
-	elseif killOrder == 3 or killOrder == 6 then -- Stavros First
-		local boss = self:GetUnitIdByGUID(166970) -- Lord Stavros
-		if boss then
-			self:CustomIcon(false, boss, 7)
-		end
-	end
 end
 
 --------------------------------------------------------------------------------
@@ -280,22 +251,6 @@ function mod:BossDeath(args)
 			self:CDBar(346690, 12.3) -- Duelist's Riposte
 			self:CDBar(346698, 42.3) -- Summon Dutiful Attendant
 		end
-		if killOrder == 2 or killOrder == 3 then -- Niklaus second
-			local boss = self:GetUnitIdByGUID(166971) -- Castellan Niklaus
-			if boss then
-				self:CustomIcon(false, boss, 7)
-			end
-		elseif killOrder == 1 or killOrder == 6 then -- Frieda second
-			local boss = self:GetUnitIdByGUID(166969) -- Baroness Frieda
-			if boss then
-				self:CustomIcon(false, boss, 7)
-			end
-		elseif killOrder == 4 or killOrder == 5 then -- Stavros second
-			local boss = self:GetUnitIdByGUID(166970) -- Lord Stavros
-			if boss then
-				self:CustomIcon(false, boss, 7)
-			end
-		end
 	elseif bossesKilled == 2 then
 		if friedaAlive then
 			self:CDBar(346651, 9) -- Drain Essence
@@ -313,22 +268,6 @@ function mod:BossDeath(args)
 			self:CDBar(330965, 16.6) -- Castellan's Cadre
 			self:CDBar(346698, 25.2) -- Summon Dutiful Attendant
 			self:CDBar(330978, 43.7) -- Dredger Servants
-		end
-		if killOrder == 5 or killOrder == 6 then -- Niklaus last
-			local boss = self:GetUnitIdByGUID(166971) -- Castellan Niklaus
-			if boss then
-				self:CustomIcon(false, boss, 7)
-			end
-		elseif killOrder == 3 or killOrder == 4 then -- Frieda last
-			local boss = self:GetUnitIdByGUID(166969) -- Baroness Frieda
-			if boss then
-				self:CustomIcon(false, boss, 7)
-			end
-		elseif killOrder == 1 or killOrder == 2 then -- Stavros last
-			local boss = self:GetUnitIdByGUID(166970) -- Lord Stavros
-			if boss then
-				self:CustomIcon(false, boss, 7)
-			end
 		end
 	end
 end

@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "Повторение Тёмного бала"
 	L.custom_on_repeating_dark_recital_desc = "Спам сообщений в /сказать с метками {rt1}, {rt2} чтобы найти своего партнёра для танца во время Тёмного бала."
 
-	L.custom_off_select_boss_order = "Маркировка порядка убийства боссов"
-	L.custom_off_select_boss_order_desc = "Устанавливать метку крест {rt7} в соответствии с порядком убийства боссов. Требуется быть помощником или лидером рейда."
-	L.custom_off_select_boss_order_value1 = "Никлаус -> Фрида -> Ставрос"
-	L.custom_off_select_boss_order_value2 = "Фрида -> Никлаус -> Ставрос"
-	L.custom_off_select_boss_order_value3 = "Ставрос -> Никлаус -> Фрида"
-	L.custom_off_select_boss_order_value4 = "Никлаус -> Ставрос -> Фрида"
-	L.custom_off_select_boss_order_value5 = "Фрида -> Ставрос -> Никлаус"
-	L.custom_off_select_boss_order_value6 = "Ставрос -> Фрида -> Никлаус"
-
 	L.dance_assist = "Помощник танцев"
 	L.dance_assist_desc = "Показ предупреждений о направлении во время фазы танцев."
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t Двигайся вперед |T450907:0:0:0:0:64:64:4:60:4:60|t"

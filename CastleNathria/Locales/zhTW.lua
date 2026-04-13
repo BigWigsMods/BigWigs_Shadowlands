@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "重覆黑暗伴舞喊話"
 	L.custom_on_repeating_dark_recital_desc = "使用 {rt1} 和 {rt2} 重覆黑暗伴舞喊話，方便你找到你的舞伴。"
 
-	L.custom_off_select_boss_order = "標記擊殺順序"
-	L.custom_off_select_boss_order_desc = "以紅叉 {rt7} 標記首領擊殺順序，需要權限。"
-	L.custom_off_select_boss_order_value1 = "守城將領 -> 佛蕾妲女爵 -> 史塔沃斯"
-	L.custom_off_select_boss_order_value2 = "佛蕾妲女爵 -> 守城將領 -> 史塔沃斯"
-	L.custom_off_select_boss_order_value3 = "史塔沃斯勛爵 -> 守城將領 -> 佛蕾妲女爵"
-	L.custom_off_select_boss_order_value4 = "守城將領 -> 史塔沃斯 -> 佛蕾妲女爵"
-	L.custom_off_select_boss_order_value5 = "佛蕾妲女爵 -> 史塔沃斯 -> 守城將領"
-	L.custom_off_select_boss_order_value6 = "史塔沃斯 -> 佛蕾妲女爵 -> 守城將領"
-
 	L.dance_assist = "跳舞助手"
 	L.dance_assist_desc = "顯示舞步方向的警報。"
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t 向前 |T450907:0:0:0:0:64:64:4:60:4:60|t"

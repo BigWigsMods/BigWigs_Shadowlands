@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "重复黑暗伴舞"
 	L.custom_on_repeating_dark_recital_desc = "重复黑暗伴舞喊话信息使用 {rt1}，{rt2} 图标，和伙伴共舞。"
 
-	L.custom_off_select_boss_order = "标记首领击杀顺序"
-	L.custom_off_select_boss_order_desc = "使用叉子 {rt7} 标记团队首领击杀顺序。需要权限。"
-	L.custom_off_select_boss_order_value1 = "堡主 -> 女男爵 -> 勋爵"
-	L.custom_off_select_boss_order_value2 = "女男爵 -> 堡主 -> 勋爵"
-	L.custom_off_select_boss_order_value3 = "勋爵 -> 堡主 -> 女男爵"
-	L.custom_off_select_boss_order_value4 = "堡主 -> 勋爵 -> 女男爵"
-	L.custom_off_select_boss_order_value5 = "女男爵 -> 勋爵 -> 堡主"
-	L.custom_off_select_boss_order_value6 = "勋爵 -> 女男爵 -> 堡主"
-
 	L.dance_assist = "跳舞助手"
 	L.dance_assist_desc = "显示舞台的定向警报。"
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t 向前跳 |T450907:0:0:0:0:64:64:4:60:4:60|t"

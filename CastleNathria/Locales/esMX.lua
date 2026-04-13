@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "Repetir Recital Oscuro"
 	L.custom_on_repeating_dark_recital_desc = "Repite mensajes en decir para la habilidad Recital oscuro con íconos {rt1}, {rt2} para que encuentres a tu pareja mientras danzas."
 
-	L.custom_off_select_boss_order = "Marcar orden de asesinato del Jefe"
-	L.custom_off_select_boss_order_desc = "Marca el orden en que la banda matará a los jefes con una X {rt7}. Requiere ayudante o líder para marcar."
-	L.custom_off_select_boss_order_value1 = "Niklaus -> Frida -> Stavros"
-	L.custom_off_select_boss_order_value2 = "Frida -> Niklaus -> Stavros"
-	L.custom_off_select_boss_order_value3 = "Stavros -> Niklaus -> Frida"
-	L.custom_off_select_boss_order_value4 = "Niklaus -> Stavros -> Frida"
-	L.custom_off_select_boss_order_value5 = "Frida -> Stavros -> Niklaus"
-	L.custom_off_select_boss_order_value6 = "Stavros -> Frida -> Niklaus"
-
 	L.dance_assist = "Asistente de danza"
 	L.dance_assist_desc = "Muestra advertencias direccionales para la fase de baile."
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t Baila hacia adelante |T450907:0:0:0:0:64:64:4:60:4:60|t"

@@ -58,15 +58,6 @@ if L then
 	L.custom_on_repeating_dark_recital = "어둠의 무도회 지속적으로 표시"
 	L.custom_on_repeating_dark_recital_desc = "지속적으로  {rt1}, {rt2}  로 표시를 해서 본인의 짝을 찾을수 있도록 표시."
 
-	L.custom_off_select_boss_order = "보스 킬 순서 표시"
-	L.custom_off_select_boss_order_desc = "보스를 잡을 순서를 {rt7} 로 표시. 부공대장 이상의 권한이 필요합니다."
-	L.custom_off_select_boss_order_value1 = "니클라우스 -> 프리에다 -> 스타브로스"
-	L.custom_off_select_boss_order_value2 = "프리에다 -> 니클라우스 -> 스타브로스"
-	L.custom_off_select_boss_order_value3 = "스타브로스 -> 니클라우스 -> 프리에다"
-	L.custom_off_select_boss_order_value4 = "니클라우스 -> 스타브로스 -> 프리에다"
-	L.custom_off_select_boss_order_value5 = "프리에다 -> 스타브로스 -> 니클라우스"
-	L.custom_off_select_boss_order_value6 = "스타브로스 -> 프리에다 -> 니클라우스"
-
 	L.dance_assist = "춤 도우미"
 	L.dance_assist_desc = "춤출때 방향 표시."
 	L.dance_assist_up = "|T450907:0:0:0:0:64:64:4:60:4:60|t 앞으로 |T450907:0:0:0:0:64:64:4:60:4:60|t"
