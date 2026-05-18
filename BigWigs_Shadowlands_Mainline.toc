@@ -50,7 +50,6 @@ CastleNathria\StoneLegionGenerals.lua
 CastleNathria\Denathrius.lua
 CastleNathria\Trash.lua
 CastleNathria\Affixes.lua
-CastleNathria\Locales\locales.xml
 SanctumOfDomination\TheTarragrue.lua
 SanctumOfDomination\TheEyeOfTheJailer.lua
 SanctumOfDomination\TheNine.lua
@@ -62,7 +61,6 @@ SanctumOfDomination\FatescribeRohKalo.lua
 SanctumOfDomination\KelThuzad.lua
 SanctumOfDomination\SylvanasWindrunner.lua
 SanctumOfDomination\Affixes.lua
-SanctumOfDomination\Locales\locales.xml
 SepulcherOfTheFirstOnes\VigilantGuardian.lua
 SepulcherOfTheFirstOnes\Skolex.lua
 SepulcherOfTheFirstOnes\ArtificerXymox.lua
@@ -75,10 +73,10 @@ SepulcherOfTheFirstOnes\LordsOfDread.lua
 SepulcherOfTheFirstOnes\Rygelon.lua
 SepulcherOfTheFirstOnes\TheJailer.lua
 SepulcherOfTheFirstOnes\Affixes.lua
-SepulcherOfTheFirstOnes\Locales\locales.xml
 Shadowlands\Mortanis.lua
 Shadowlands\Oranomonos.lua
 Shadowlands\NurgashMuckformed.lua
 Shadowlands\Valinor.lua
 
+!Locales\[TextLocale].lua [AllowLoadTextLocale deDE, esES, esMX, frFR, itIT, koKR, ptBR, ruRU, zhCN, zhTW]
 !Options.lua
