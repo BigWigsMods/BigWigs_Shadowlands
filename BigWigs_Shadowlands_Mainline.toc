@@ -36,7 +36,7 @@
 ## X-BigWigs-LoadOn-InstanceId: 2296, 2450, 2481
 ## X-BigWigs-ExtraMenu: -1647
 ## X-BigWigs-LoadOn-WorldBoss: -1536, 167525, -1565, 167527, -1525, 167526, -1533, 167524
-## X-BigWigs-Minimum: 412
+## X-BigWigs-Minimum: 417
 
 CastleNathria\Shriekwing.lua
 CastleNathria\Altimor.lua
