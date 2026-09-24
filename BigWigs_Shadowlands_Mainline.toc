@@ -1,4 +1,5 @@
-## Interface: 120100, 120005, 120007
+## Interface: 120100, 120105, 120007
+## AllowLoadGameType: standard
 
 ## Title: BigWigs [|cffeda55fShadowlands|r]
 ## Title-zhCN: BigWigs [|cffeda55f暗影国度|r]
